@@ -119,8 +119,8 @@ def main():
     # with open('youtube_accounts.json') as f:
     #     contas = json.load(f)
 
-    video_url = input("Digite a URL do vídeo do YouTube: ")
-    quantidade_abas = int(input("Digite a quantidade de abas que deseja abrir: "))
+    video_url = "https://www.youtube.com/watch?v=ye2jqnxaz2U"#input("Digite a URL do vídeo do YouTube: ")
+    quantidade_abas = 2#int(input("Digite a quantidade de abas que deseja abrir: "))
 
     # # Verifica se a quantidade de abas é maior que a quantidade de contas
     # if quantidade_abas > len(contas):
