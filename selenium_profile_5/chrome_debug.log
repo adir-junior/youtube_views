@@ -1,6 +1,0 @@
-[78132:259:1101/195416.136078:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.92 (not a warning)
-[78132:259:1101/195417.406503:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[78188:259:1101/195421.594162:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[78132:259:1101/195457.559766:INFO:CONSOLE(4983)] "LegacyDataMixin will be applied to all legacy elements.
-Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/2ebf714b/jsbin/desktop_polymer.vflset/desktop_polymer.js (4983)
-[78194:14595:1101/195505.173179:WARNING:pref_notifier_impl.cc(60)] Init observer found at shutdown.

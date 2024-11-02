@@ -1,9 +1,0 @@
-[78128:259:1101/195416.090145:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.92 (not a warning)
-[78128:259:1101/195417.406442:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[78190:259:1101/195420.765603:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[78128:259:1101/195449.549133:INFO:CONSOLE(4983)] "LegacyDataMixin will be applied to all legacy elements.
-Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/2ebf714b/jsbin/desktop_polymer.vflset/desktop_polymer.js (4983)
-[78128:259:1101/195452.247631:INFO:CONSOLE(4983)] "LegacyDataMixin will be applied to all legacy elements.
-Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/2ebf714b/jsbin/desktop_polymer.vflset/desktop_polymer.js (4983)
-[78128:259:1101/195504.829697:WARNING:service_video_capture_provider.cc(112)] Detected crash of video capture service
-[78128:35587:1101/195504.829921:WARNING:video_capture_service_impl.cc(130)] Enabling safe mode VideoCaptureService
