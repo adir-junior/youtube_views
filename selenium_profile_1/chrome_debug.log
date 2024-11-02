@@ -1,0 +1,12 @@
+[82259:259:1101/200531.373891:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.92 (not a warning)
+[82259:259:1101/200531.959234:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[82269:259:1101/200532.564479:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[82259:259:1101/200534.474262:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://accounts.google.com/v3/signin/identifier?ifkv=AcMMx-ffJULVED0O40t4lSIl_S3TYJ365Qp4Zx5-DpNgFc8d3UzSAB7k3FuljzWlRlH5ULvXGB-m&service=youtube&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S741315546%3A1730502334227897&ddm=1 (0)
+[82259:259:1101/200534.497318:INFO:CONSOLE(372)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.FTeHN54Z0KM.es5.O/am=xA7Gk2EagYD4h6cBvQFFAiEHAAAAAAAAAABtAAAADwM/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlGX-aGVLVfTEfTK9E6WgRvJTntTeg/m=_b,_tp (372)
+[82259:259:1101/200534.497424:INFO:CONSOLE(372)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.FTeHN54Z0KM.es5.O/am=xA7Gk2EagYD4h6cBvQFFAiEHAAAAAAAAAABtAAAADwM/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlGX-aGVLVfTEfTK9E6WgRvJTntTeg/m=_b,_tp (372)
+[82259:259:1101/200534.873021:WARNING:hid_collection.cc(240)] encountered report item with invalid report size (16024>32)
+[82259:259:1101/200534.873051:WARNING:hid_collection.cc(240)] encountered report item with invalid report size (1048>32)
+[82271:17155:1101/200535.669046:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[82271:17155:1101/200535.669806:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[82259:40707:1101/200535.675925:WARNING:service_video_capture_provider.cc(344)] Too many GetDeviceInfos() retries

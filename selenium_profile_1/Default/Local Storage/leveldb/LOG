@@ -1,0 +1,4 @@
+2024/11/01-20:05:32.528 3d03 Reusing MANIFEST /Users/gabrielsantiago/Trabalho/youtube_views/selenium_profile_1/Default/Local Storage/leveldb/MANIFEST-000001
+2024/11/01-20:05:32.533 3d03 Recovering log #3
+2024/11/01-20:05:32.533 3d03 (ignoring error) /Users/gabrielsantiago/Trabalho/youtube_views/selenium_profile_1/Default/Local Storage/leveldb/000003.log: dropping 1410 bytes; Corruption: checksum mismatch
+2024/11/01-20:05:32.533 3d03 Reusing old log /Users/gabrielsantiago/Trabalho/youtube_views/selenium_profile_1/Default/Local Storage/leveldb/000003.log 

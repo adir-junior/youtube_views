@@ -1,0 +1,10 @@
+[78126:259:1101/195416.090139:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.92 (not a warning)
+[78126:259:1101/195417.406402:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[78189:259:1101/195421.756539:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[78126:259:1101/195446.099416:INFO:CONSOLE(4983)] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/2ebf714b/jsbin/desktop_polymer.vflset/desktop_polymer.js (4983)
+[78126:259:1101/195448.898857:INFO:CONSOLE(4983)] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/2ebf714b/jsbin/desktop_polymer.vflset/desktop_polymer.js (4983)
+[78126:259:1101/195504.780486:WARNING:service_video_capture_provider.cc(112)] Detected crash of video capture service
+[78126:36099:1101/195504.780964:WARNING:video_capture_service_impl.cc(130)] Enabling safe mode VideoCaptureService
+[78126:36099:1101/195504.883026:WARNING:service_video_capture_provider.cc(344)] Too many GetDeviceInfos() retries

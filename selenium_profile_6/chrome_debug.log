@@ -1,0 +1,7 @@
+[78125:259:1101/195416.090185:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.92 (not a warning)
+[78125:259:1101/195417.406563:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[78183:259:1101/195421.756746:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[78125:259:1101/195501.889196:INFO:CONSOLE(4983)] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/desktop/2ebf714b/jsbin/desktop_polymer.vflset/desktop_polymer.js (4983)
+[78305:36611:1101/195505.059639:ERROR:command_buffer_proxy_impl.cc(131)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[78305:259:1101/195505.059621:ERROR:command_buffer_proxy_impl.cc(324)] GPU state invalid after WaitForGetOffsetInRange.

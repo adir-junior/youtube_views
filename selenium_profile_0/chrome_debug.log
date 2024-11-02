@@ -1,0 +1,16 @@
+[91130:259:1101/203629.602493:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.92 (not a warning)
+[91130:259:1101/203630.177433:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[91136:259:1101/203630.379024:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[91130:58115:1101/203630.998662:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
+[91130:259:1101/203632.052021:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://accounts.google.com/v3/signin/identifier?ifkv=AcMMx-fg389OXdw8ibNGtrBQxS3c7y9RdsDmf3sngdTN7Mn39sIQu8NY68-qfNhy0dIQwpQolYxUnA&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1089434683%3A1730504191476890&ddm=1 (0)
+[91130:259:1101/203632.056502:INFO:CONSOLE(372)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.FTeHN54Z0KM.es5.O/am=xA7Gk2EbgYD4h6cBvQFFAiEHAAAAAAAAAABsAAAIDwM/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlHPiko9Le2GdU_GChe1XQfAgxNwUg/m=_b,_tp (372)
+[91130:259:1101/203632.056989:INFO:CONSOLE(372)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.FTeHN54Z0KM.es5.O/am=xA7Gk2EbgYD4h6cBvQFFAiEHAAAAAAAAAABsAAAIDwM/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlHPiko9Le2GdU_GChe1XQfAgxNwUg/m=_b,_tp (372)
+[91130:259:1101/203632.264600:WARNING:hid_collection.cc(240)] encountered report item with invalid report size (16024>32)
+[91130:259:1101/203632.264622:WARNING:hid_collection.cc(240)] encountered report item with invalid report size (1048>32)
+[91130:259:1101/203633.173222:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[91130:259:1101/203633.173812:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[91130:259:1101/203633.173835:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[91130:259:1101/203633.173844:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[91137:11267:1101/203644.858261:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[91137:11267:1101/203644.860000:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
