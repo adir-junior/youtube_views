@@ -1,0 +1,18 @@
+# Dockerfile_vpn_server
+FROM python:3.9-slim
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Copia os arquivos necessários para o contêiner
+COPY VPN_SERVER/ /app/VPN_SERVER/
+COPY VPN_SERVER/vpn_server.py /app/vpn_server.py
+COPY VPN_SERVER/server.crt /app/server.crt
+COPY VPN_SERVER/server.key /app/server.key
+COPY requirements.txt /app/requirements.txt
+
+# Instala as dependências necessárias
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Comando para iniciar o servidor VPN
+CMD ["python", "/app/vpn_server.py"]

@@ -1,7 +1,19 @@
 import socket
 import ssl
 
-def vpn_client(host, port):
+def vpn_client(host: str, port: int) -> None:
+    """
+    Tests connection to the VPN server.
+
+    This function is used solely for testing the connection to the VPN server. It
+    creates a secure connection to the server, sends a "Hello, VPN Server!" message,
+    and prints the received response.
+
+    Parameters:
+        host (str): The hostname or IP address of the VPN server.
+        port (int): The port number on which the VPN server is listening.
+    """
+    
     context = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
     context.load_verify_locations("server.crt")
 

@@ -1,0 +1,92 @@
+# YouTube Views
+
+## Description
+
+This project is a Python script that uses the Selenium library to open YouTube and watch videos in a loop, artificially increasing views.
+
+## Features
+
+* Opens YouTube and selects a random video
+* Watches the video for a set amount of time
+* Repeats the process in a loop
+
+## Requirements
+
+* Python 3.11 or later
+* Selenium library installed
+* Virtual environment (optional, but recommended)
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/youtube-views.git`
+2. Activate the virtual environment (if using): `source venv/bin/activate` (on macOS/Linux) or `venv\Scripts\activate` (on Windows)
+3. Install dependencies: `pip install -r requirements.txt`
+
+## Usage
+
+1. Use the `videos.json` file in the root directory of the project with the following format:
+```json
+{
+    "https://youtube.com/shorts/dx25kjW9G2Y?si=13qlf0DByMlzKPEI": {
+        "duration": 30,
+        "variation": 10
+    },
+    "https://youtube.com/shorts/PFOoBNXD0Fg?si=-vKy0UXavlPL1LhR": {
+        "duration": 30,
+        "variation": 20
+    },
+    "https://youtube.com/shorts/i-OZKd4LEE0?si=_-pH5uADJZbYNgLr": {
+        "duration": 30,
+        "variation": 20
+    }
+}
+```
+
+2. Run the script: `python main.py`
+3. The script will open YouTube and start watching videos in a loop
+
+## Using the JSON file
+
+The videos.json file is used to specify the list of videos to watch and their respective durations. The file should be in the following format:
+
+```json
+{
+    "video_url": {
+        "duration": <duration>,
+        "variation": <variation>
+    }
+}
+```
+
+* `video_url`: the URL of the video to watch
+* `duration`: the minimum duration of the video in seconds
+* `variation`: the maximum variation in duration in seconds 
+    * e.g. if the duration is 30 seconds and the variation is 10 seconds, the video will be watched for a random duration between 20 and 40 seconds. That way you can simulate an organic view increase.
+
+You can add or remove videos from the list as needed.
+Also you can use `qnty_pages_for_each_video` in `main.py` to specify the number of times each video should be watched.
+
+## Testing
+
+* Run the tests: `pytest`
+* To run a specific test, use the following command: `pytest test_main.py::<test_name>`
+
+## Using Pytest
+
+Pytest is a popular testing framework for Python. To use Pytest with this project, follow these steps:
+
+1. Run the tests: `pytest`
+
+Pytest provides a lot of features, including:
+
+* Test discovery: Pytest can automatically discover and run tests in your project
+* Test fixtures: Pytest provides a way to set up and tear down test fixtures, making it easier to write tests
+* Test parametrization: Pytest allows you to run the same test multiple times with different inputs
+
+## Notes
+
+* This project is for educational purposes only and should not be used for malicious purposes.
+* Excessive use of this script may result in penalties from YouTube.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.

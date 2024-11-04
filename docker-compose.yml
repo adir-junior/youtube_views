@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  vpn_service:
+    image: ubuntu:latest
+    container_name: vpn_service_container
+    volumes:
+      - ./VPN_SERVER:/app/VPN_SERVER  # Monta toda a pasta VPN_SERVER
+      - ./requirements.txt:/app/requirements.txt
+    working_dir: /app
+    tty: true
+    command: >
+      bash -c "apt-get update && 
+               apt-get install -y python3 python3-pip python3-venv sudo &&
+               python3 -m venv venv &&
+               . venv/bin/activate &&
+               pip install -r requirements.txt &&
+               chmod +x /app/VPN_SERVER/vpn_server.py &&
+               sudo venv/bin/python /app/VPN_SERVER/vpn_server.py"
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+    stdin_open: true
+    user: root
+    cap_add:
+      - NET_ADMIN
+    privileged: true
+    ports:
+      - "8443:8443"
+
+  viewer_service:
+    image: ubuntu:latest
+    container_name: viewer_service_container
+    volumes:
+      - ./main.py:/app/main.py
+      - ./requirements.txt:/app/requirements.txt
+      - ./videos_to_watch.json:/app/videos_to_watch.json
+      - ./VPN_SERVER/server.crt:/app/VPN_SERVER/server.crt
+    working_dir: /app
+    tty: true
+    command: >
+      bash -c "apt-get update && 
+               apt-get install -y python3 python3-pip python3-venv &&
+               python3 -m venv venv &&
+               . venv/bin/activate &&
+               pip install -r requirements.txt &&
+               venv/bin/python /app/main.py"
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+    stdin_open: true
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
