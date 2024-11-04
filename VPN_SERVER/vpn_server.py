@@ -16,6 +16,29 @@ geo_ip_list = {
     'BR': ['192.168.3.10', '192.168.3.11']
 }
 
+
+def setup_iptables() -> None:
+    """
+    Configure IPTables to enable packet forwarding from the VPN interface to
+    the physical network interface (eth0).
+
+    This function has no parameters and returns no value.
+
+    The specific command run is:
+        iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+    This command allows the VPN server to forward packets between the VPN
+    interface and the physical network interface, allowing the client to access
+    the network.
+
+    Returns:
+        None
+    """
+    subprocess.run(['iptables', '-t', 'nat', '-A', 'POSTROUTING', '-o', 'eth0', '-j', 'MASQUERADE'], check=True)
+
+
+    logging.info("IpTables configuration done.")
+
 def generate_random_ip() -> str:
     """
     Generates a random IP address and adds it to the allocated_ips set.
@@ -72,6 +95,7 @@ def handle_client(newsocket: socket.socket, fromaddr: tuple[str, int], location:
         conn = context.wrap_socket(newsocket, server_side=True)
         virtual_ip = assign_ip_based_on_location(location)  # Use location for IP assignment
         logging.info(f"Assigned virtual IP {virtual_ip} to client {fromaddr}")
+        setup_iptables()
 
         time.sleep(0.5)
 
