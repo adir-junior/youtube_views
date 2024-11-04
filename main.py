@@ -152,3 +152,7 @@ if __name__ == "__main__":
     # server_port = 8443
     # virtual_ip = get_virtual_ip(server_host, server_port)
     # print(virtual_ip)
+
+
+#temos que abri o powershell como administrador   
+# #usar este codigo  --> Set-Location -Path F:\youtube-gabriel\youtube_views\VPN_SERVER && python3 .\vpn_server.py
