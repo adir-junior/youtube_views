@@ -158,3 +158,7 @@ def start_vpn_server(host: str, port: int) -> None:
 if __name__ == "__main__":
     enable_ip_forwarding()  
     start_vpn_server('127.0.0.1', 8443)
+
+
+#temos que abri o powershell como administrador   
+# #usar este codigo  --> Set-Location -Path F:\youtube-gabriel\youtube_views\VPN_SERVER && python3 .\vpn_server.py
